@@ -2,7 +2,7 @@
 
 1- Write a Python program to print **“Hellow, World!”**.
 
-2- Write a Python program to print **“Welcome to Python Programing”**.
+2- Write a Python program to print **“Welcome to Python Programming”**.
 
 3- Write a Python program to print your Full name in one line and your phone number in the next line.
 
