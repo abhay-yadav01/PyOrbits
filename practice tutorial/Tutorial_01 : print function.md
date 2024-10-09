@@ -13,5 +13,3 @@
      Python</pre>
 
 5- Write a Python program to print your full name in one line using two print statements, and print your DOB as follows: **01/01/2022**.
-
-6- Create a simple CV using Python.
