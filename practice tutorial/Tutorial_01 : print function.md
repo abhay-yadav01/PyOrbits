@@ -12,4 +12,4 @@
    <pre style="background-color: yellow;">You are coding using 
      Python</pre>
 
-5- Write a Python program to print your full name in one line using two print statements, and print your DOB as follows: **01/01/2022**.
+5- Write a Python program to print your full name in one line using two print statements, and print your DOB as follows: **01/01/2022**
