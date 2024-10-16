@@ -1,4 +1,5 @@
 # 🚀 Project 2 : Grocery List Manager
+
 <h3>Concepts Covered :</h3>
 1. Lists</br>
 2. String Operations</br>
