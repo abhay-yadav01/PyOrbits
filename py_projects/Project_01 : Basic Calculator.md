@@ -7,5 +7,5 @@
 4. Input/Output</br>
 5. if/else/elif</br>
 
-# Description:
+# Description :
 Create a simple calculator that can perform basic operations like addition, subtraction, multiplication, and division. Ask the user to input two numbers and the operation they want to perform. Cast the inputs to the correct data type and display the result.
