@@ -28,3 +28,29 @@ else:
 
 ---
 
+<h3> 2. Even or Odd🔢</h3>
+
+**Description🔍**: This program checks if a number is even or odd.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Even or Odd Number!!!\n")
+number = int(input("Enter your number: "))
+if number % 2 == 0:
+    print(number, "is Even number.")
+else:
+    print(number, "is Odd number.")
+```
+
+---
+
+## Example Output📊
+**Input:** `4`  
+**Output:** `4 is Even number.`
+
+**Input:** `7`  
+**Output:** `7 is Odd number.`
+
+---
