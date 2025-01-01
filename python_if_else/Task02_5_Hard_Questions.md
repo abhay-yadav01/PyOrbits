@@ -22,3 +22,40 @@ else:
 
 **Input:** `5`  
 **Output:** `Number is out of range.`
+
+---
+
+<h3> 2. Multiple Conditions🔢</h3>
+
+**Description🔍**: This program checks if a number is divisible by both 3 and 5, only 3, only 5, or neither.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Multiple Conditions Checker!!!\n")
+div_number = int(input("Enter your number: "))
+if div_number % 3 == 0 and div_number % 5 == 0:
+    print("FizzBuzz.")
+elif div_number % 3 == 0:
+    print("Fizz.")
+elif div_number % 5 == 0:
+    print("Buzz.")
+else:
+    print(div_number)
+```
+
+---
+
+## Example Output📊
+**Input:** `15`  
+**Output:** `FizzBuzz.`
+
+**Input:** `9`  
+**Output:** `Fizz.`
+
+**Input:** `10`  
+**Output:** `Buzz.`
+
+**Input:** `7`  
+**Output:** `7.`
