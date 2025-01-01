@@ -59,3 +59,98 @@ else:
 
 **Input:** `7`  
 **Output:** `7.`
+
+---
+
+<h3> 3. Grade Assignment🔢</h3>
+
+**Description🔍**: This program takes a score (out of 100) as input and assigns grades based on defined ranges.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Grade Assignment!!!\n")
+score = int(input("Enter your Score out of 100: "))
+if score >= 90:
+    print("You achieved Grade A")
+elif 80 <= score <= 89:
+    print("You achieved Grade B")
+elif 70 <= score <= 79:
+    print("You achieved Grade C")
+else:
+    print("You Failed")
+```
+
+---
+
+## Example Output📊
+**Input:** `92`  
+**Output:** `You achieved Grade A.`
+
+**Input:** `85`  
+**Output:** `You achieved Grade B.`
+
+**Input:** `72`  
+**Output:** `You achieved Grade C.`
+
+**Input:** `65`  
+**Output:** `You Failed.`
+
+---
+
+<h3> 4. Triangle Validity Checker🔢</h3>
+
+**Description🔍**: This program checks if three sides can form a valid triangle based on triangle inequality rules.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Triangle Validity Checker!!!\n")
+side1 = float(input("Enter the first side of the triangle: "))
+side2 = float(input("Enter the second side of the triangle: "))
+side3 = float(input("Enter the third side of the triangle: "))
+# Check for triangle validity
+if (side1 + side2 > side3) and (side1 + side3 > side2) and (side2 + side3 > side1):
+    print("The triangle is valid.")
+else:
+    print("The triangle is not valid.")
+```
+
+---
+
+## Example Output📊
+**Input:** `3, 4, 5`  
+**Output:** `The triangle is valid.`
+
+**Input:** `1, 2, 3`  
+**Output:** `The triangle is not valid.`
+
+---
+
+<h3> 5. Login System🔢</h3>
+
+**Description🔍**: This program validates user credentials for login.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Login System!!!\n")
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+if username == "admin" and password == "password123":
+    print("Access granted.")
+else:
+    print("Access denied.")
+```
+
+---
+
+## Example Output📊
+**Input:** `admin, password123`  
+**Output:** `Access granted.`
+
+**Input:** `user, pass`  
+**Output:** `Access denied.`
