@@ -113,8 +113,6 @@ else:
 
 `Remaining balance: 3000.00`
 
----
-
 **Input:** 
 
 `Enter your account balance: 3000`
@@ -154,14 +152,69 @@ else:
 
 **Output**: `9 is the largest number.`
 
----
-
 **Input_02**: `10, 8, 7`
 
 **Output**: `10 is the largest number.`
 
----
-
 **Input_03**: `4, 4, 2`
 
 **Output**: `4 is the largest number.`
+
+---
+
+<h3> 5. Check Quadrant of a Point📍</h3>
+
+**Description🔍**: This program takes the coordinates (x, y) of a point as input and determines which quadrant the point lies in or if it lies on an axis.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Check Point Quadrant!!!\n")
+# Input: Ask user for coordinates
+x = float(input("Enter the x-coordinate: "))
+y = float(input("Enter the y-coordinate: "))
+# 0 = zero & 1 = non-zero
+# 🚀 Logic01 : 
+# 1. (x,y) = (0,0) : Origin,             ✔️ Both value (x,y) are zero 
+# 2. (x,y) = (1,0) : OriginOn x-axis,    ✔️ the value of x is non-zero AND the value of y is zero   
+# 3. (x,y) = (0,1) : OriginOn y-axis,    ✔️ the value of x is zero AND the value of y is no-zero
+# 🚀 Logic02 : 
+# 1st_quadrant (+,+),    ✔️ Both value (x,y) are positive 
+# 2nd_quadrant (-,+),    ✔️ if value of x is nagative and value of y is positive  
+# 3rd_quadrant (-,-),    ✔️ Both value (x,y) are nageitive
+# 4th_quadrant (+,-),    ✔️ if value of x is positive and value of y is nagetive
+if x == 0 & y == 0:
+    print("the point is at the Origin.")
+elif y == 0:
+    print("the point is at the Origin x-axis.")
+elif x == 0:
+    print("the point is at the Origin y-axis.")
+elif x > 0 & y > 0:
+    print("The point lies in the 1st Quadrant.")
+elif x < 0 & y > 0:
+    print("The point lies in the 2nd Quadrant.")
+elif x < 0 & y < 0:
+    print("The point lies in the 3rd Quadrant.")
+elif x > 0 & y < 0:
+    print("The point lies in the 4rt Quadrant.")
+```
+
+---
+
+## Example Output📊
+
+**Input**: `x=5, y=7`
+
+**Output**: `The point lies in the 1st Quadrant.`
+
+**Input**: `x=-3, y=8`
+
+**Output**: `The point lies in the 2nd Quadrant.`
+
+**Input**: `x=0, y=5`
+
+**Output**: `The point lies on the y-axis.`
+
+---
+
