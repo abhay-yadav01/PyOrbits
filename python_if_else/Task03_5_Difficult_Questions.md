@@ -36,3 +36,41 @@ else:
 
 ---
 
+<h3> 2. Check Leap Year 📅</h3>
+
+**Description🔍**: This program checks whether a given year is a leap year or not based on specific conditions.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to Leap Year Checker!!!\n")
+year = int(input("Enter a year: "))
+
+if (year % 400 == 0):
+    print(f"{year} is a leap year.")
+elif (year % 100 == 0):
+    print(f"{year} is not a leap year.")
+elif (year % 4 == 0):
+    print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")
+```
+
+---
+
+## Example Output📊
+**Input:** `2000`  
+**Output:** `2000 is a leap year.`
+
+**Input:** `1900`  
+**Output:** `1900 is not a leap year.`
+
+**Input:** `2024`  
+**Output:** `2024 is a leap year.`
+
+**Input:** `2023`  
+**Output:** `2023 is not a leap year.`
+
+---
+
