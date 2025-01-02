@@ -31,7 +31,7 @@ for i in range(1,11):
 
 <h3> 2. Print Each Character in a String 🔠</h3>
 
-**Description🔍**: 
+**Description🔍**: This program takes a string as input and uses a for loop to iterate through each character in the string. It prints each character on a new line, demonstrating the use of loops for string traversal. 
 
 ---
 
