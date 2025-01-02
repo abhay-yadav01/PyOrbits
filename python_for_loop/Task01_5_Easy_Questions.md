@@ -66,3 +66,40 @@ d
 `
 
 ---
+
+<h3> 3. Sum of Numbers in a List🔠</h3>
+
+**Description🔍**: This program takes a list of numbers as input and calculates the sum of all the numbers in the list.
+
+---
+
+## Code📝
+```python
+numbers = [1, 2, 3, 4, 5]
+total_sum = 0
+for number in numbers:
+    total_sum += number
+    print("The sum of the numbers in the list is:", total_sum)
+```
+
+---
+
+## Example Output📊
+**Output:** `15`
+
+---
+
+<h3> 4. Print Even Numbers in a Range 🔢</h3>
+
+**Description🔍**: To desplay Even numbers between 1 and 20.
+
+---
+
+## Code📝
+```python
+print("Even numbers between 1 and 20 are:")
+for number in range(1, 21):
+    if number % 2 == 0:  # Check if the number is even
+        print(number)
+```
+---
