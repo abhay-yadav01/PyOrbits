@@ -74,3 +74,54 @@ else:
 
 ---
 
+<h3> 3. ATM Withdrawal Logic 💳</h3>
+
+**Description🔍**: This program simulates an ATM withdrawal system. It checks if the requested withdrawal amount can be processed based on the available account balance.
+
+---
+
+## Code📝
+```python
+print("\nWelcome to ATM Withdrawal System!!!\n")
+
+# Input: Ask user for account balance and withdrawal amount
+account_balance = float(input("Enter your account balance: "))
+withdraw_amount = float(input("Enter the amount to withdraw: "))
+
+# Check if withdrawal is possible
+if withdraw_amount <= account_balance:
+    # Update account balance
+    account_balance -= withdraw_amount
+    print(f"Transaction successful. \nRemaining balance: {account_balance:.2f}")
+else:
+    print("Insufficient balance.")
+```
+
+---
+
+## Example Output📊
+
+**Input:** 
+
+`Enter your account balance: 5000`
+
+`Enter the amount to withdraw: 2000`  
+
+**Output:** 
+
+`Transaction successful.`
+
+`Remaining balance: 3000.00`
+
+---
+
+**Input:** 
+
+`Enter your account balance: 3000`
+
+`Enter the amount to withdraw: 4000`  
+
+**Output:** 
+
+`Insufficient balance.`
+
