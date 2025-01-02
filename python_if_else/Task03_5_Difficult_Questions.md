@@ -125,3 +125,43 @@ else:
 
 `Insufficient balance.`
 
+---
+
+<h3> 4. Find Largest Among Three Numbers🔢</h3>
+
+**Description🔍**: This program takes three numbers as input and determines the largest of the three.
+
+---
+
+## Code📝
+
+```python
+print("\nWelcome to Find the Largest Number!!!\n")
+input_no1 = float(input("Enter your First number: "))
+input_no2 = float(input("Enter your Second number: "))
+input_no3 = float(input("Enter your Third number: "))
+
+if input_no1 > input_no2:
+    print(input_no1, "is the largest number.")
+elif input_no2 > input_no3:
+    print(input_no2, "is the largest number.")
+else:
+    print(input_no3, "is the largest number.")
+```
+
+## Example Output📊
+**Input_01**: `5, 9, 3`
+
+**Output**: `9 is the largest number.`
+
+---
+
+**Input_02**: `10, 8, 7`
+
+**Output**: `10 is the largest number.`
+
+---
+
+**Input_03**: `4, 4, 2`
+
+**Output**: `4 is the largest number.`
