@@ -17,7 +17,7 @@ Temperature Greater than 100 = Steam
 <h4>5- Swimming pool is a dangerous place for children, therefore write a program to check the age of people who will enter the swimming pool considering that.</h4>
 
 ```
-If the age is less than 12, check if the child with one of his parents, then print “you are most welcome”, 
+if the age is less than 12, check if the child with one of his parents, then print “you are most welcome”, 
 if no one of his parents with him check his gender if male print “Please wait, Ahmed is coming to help”, 
 if she is a female print “Please wait, Sara is coming to help”.
 If the age is more than 12 print “you are most welcome”. 
