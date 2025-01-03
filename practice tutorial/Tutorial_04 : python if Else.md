@@ -13,7 +13,7 @@ Temperature Less than 0 = Ice
 Temperature Greater than 0 and less than 100 = Water
 Temperature Greater than 100 = Steam
 ```
-
+----
 <h4>5- Swimming pool is a dangerous place for children, therefore write a program to check the age of people who will enter the swimming pool considering that.</h4>
 
 ```
@@ -22,7 +22,7 @@ if no one of his parents with him check his gender if male print “Please wait,
 if she is a female print “Please wait, Sara is coming to help”.
 If the age is more than 12 print “you are most welcome”. 
 ```
-
+---
 <h4>6- There are errors in the following code, remove those errors and write output</h4>
 
 ```
