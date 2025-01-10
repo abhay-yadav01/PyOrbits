@@ -25,3 +25,37 @@ print("The factorial of", number, "is", result)
 **Output:** ```The factorial of 5 is 120```
 
 ---
+
+<h3> 🚀 Question 2: Function with Variable-Length Arguments</h3>
+
+**Description🔍**: Create a function named calculate_average(*numbers) that takes any number of numeric arguments and returns their average. If no arguments are provided, return 0. Call the function with (10, 20, 30, 40) and without arguments.
+
+---
+
+## Code📝
+```python
+# Function to calculate the average
+def calculate_average(*numbers):
+    if len(numbers) == 0:  # Check if no arguments are provided
+        return 0
+    else:
+        average = sum(numbers) / len(numbers)  # Calculate the average
+        return average
+
+# Calling the function with arguments
+result1 = calculate_average(10, 20, 30, 40)
+print("The average is:", result1)
+
+# Calling the function without arguments
+result2 = calculate_average()
+print("The average is:", result2)
+```
+
+## Example Output📊  
+**Output:** 
+```
+The average is: 25.0
+The average is: 0
+```
+
+---
