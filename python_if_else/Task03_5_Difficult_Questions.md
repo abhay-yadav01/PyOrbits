@@ -200,5 +200,21 @@ elif x > 0 & y < 0:
     print("The point lies in the 4rt Quadrant.")
 ```
 
+---
 
+## Example Output📊
+
+**Input**: `x=5, y=7`
+
+**Output**: `The point lies in the 1st Quadrant.`
+
+**Input**: `x=-3, y=8`
+
+**Output**: `The point lies in the 2nd Quadrant.`
+
+**Input**: `x=0, y=5`
+
+**Output**: `The point lies on the y-axis.`
+
+---
 
